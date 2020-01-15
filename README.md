@@ -2,8 +2,15 @@
 
 This method is for simulating the capillary force of sand in different matrix suction, including SWCC and net interparticle force by negative pore water pressure and surface tension.
 
-Thi codes are simulation about SWCC, hysteresis, force;
-Its name is BWLABEL3D, it including some other codes.
+Name of code : Pore-Algorithm and 18 lattices numerical method
+Developper : Chengsheng Li
+Contact details : State Key Laboratory of Geomechanics and Geotechnical Engineering, Institute of Rock and Soil Mechanics, Chinese Academy of Sciences, Wuhan, Hubei 430071, China; 
+email : lichengsheng@outlook.com
+Year first availabel : 2020
+Hardware required : SWCC was run a computer with 4 cores (3.4 GHz each) and 8 GB.
+Software required and language : Matlab 2019b or other versions.
+Details on how to access the source code : the source files of the Pore-Algorithm and 18 lattices numerical method can be downloaded from github https://github.com/lichengshengHK/Pore-Algorithm-and-18-lattices-numerical-method/edit/master/README.md.
+
 
 Developer is: Chengsheng Li, lichengsheng@outlook.com,
 Institute of Rock and Soil Mechanics, Chinese Academy of Sciences, Wuhan, 
@@ -36,11 +43,15 @@ are:
   if " [1, 2, 3, 2]", the Hysteresis part is air, the simulation is about wetting path,
   then, Click [SWCC Hysteresis], the hysteresis of "ink-bottle" effect will be simulated.
   finally, "Drying path" or "Wetting path" file which include tif results will be generated.
+  if size of the "r" of the SWCC Simulate is 10, the "SWCC Hysteresis" need to be carry 10*2 = 20 timmes.
 
 5.SWCC Force
   Click [File] load the "Drying path" or "Wetting path" (including tif results images)
   then, Click [SWCC Force], a result data of VCT.mat will be generated.
   VCT.mat including the Solid-liquid force "VCT.F_Ws"and Solid-liquid-air force "VCT.Wa".
+  if size of the "r" of the SWCC Simulate is 10, the "SWCC Force" need to be carry 10*2 = 20 timmes.
+  
+6. Finally, the program can give the average result number of "[ sum(Fwix) + sum(Fwiy) + sum(Fwiz) ] / 6", 
  
 
 
