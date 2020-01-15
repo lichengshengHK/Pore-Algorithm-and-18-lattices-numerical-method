@@ -9,8 +9,7 @@ email : lichengsheng@outlook.com
 Year first availabel : 2020
 Hardware required : SWCC was run a computer with 4 cores (3.4 GHz each) and 8 GB.
 Software required and language : Matlab 2019b or other versions.
-Details on how to access the source code : the source files of the Pore-Algorithm and 18 lattices numerical method can be downloaded from github https://github.com/lichengshengHK/Pore-Algorithm-and-18-lattices-numerical-method/edit/master/README.md.
-
+Details on how to access the source code : the source files of the Pore-Algorithm and 18 lattices numerical method can be downloaded from github https://github.com/lichengshengHK/Pore-Algorithm-and-18-lattices-numerical-method.
 
 Developer is: Chengsheng Li, lichengsheng@outlook.com,
 Institute of Rock and Soil Mechanics, Chinese Academy of Sciences, Wuhan, 
