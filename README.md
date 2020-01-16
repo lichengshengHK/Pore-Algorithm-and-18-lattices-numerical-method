@@ -53,7 +53,7 @@ are:
    
    then, Click [SWCC Hysteresis], the hysteresis of "ink-bottle" effect will be simulated.
    
-   finally, "Drying path" or "Wetting path" file which include tif results will be generated.
+   finally, "Drying path" or "Wetting path" folder which include tif results will be generated.
    
    if size of the "r" of the SWCC Simulate is 10, the "SWCC Hysteresis" need to be carry 10*2 = 20 timmes.
    
@@ -69,7 +69,7 @@ are:
    
    if size of the "r" of the SWCC Simulate is 10, the "SWCC Force" need to be carry 10*2 = 20 timmes.
   
-6. Finally, the program can give the average result number of "[ sum(Fwix) + sum(Fwiy) + sum(Fwiz) ] / 6", 
+6. Finally, the program can give the average result number of "[ sum(Fwix) + sum(Fwiy) + sum(Fwiz) ] / 6", and the force need to be calculate by your self and reference the paper.
  
 
 
