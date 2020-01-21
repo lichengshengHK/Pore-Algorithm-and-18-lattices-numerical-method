@@ -31,6 +31,7 @@ then Click [Generate .mat], a V.mat will be generated.
 
 3. SWCC Simulate
 Click [Open] load the V.mat file path, 
+Click [Save] load the save file path,
 then Click [模拟半径] import the matrix suction r, like " [1:10]",
 Chose "SWCC Simulate"
 then Click [SWCC Simulate], a siries of data will be generated of different r.
@@ -39,8 +40,8 @@ There will generate r_x_SWWCC.mat and tif result folder "r_x_SWCC".
 4.SWCC Hysteresis
 Click [File] load the SWCC tif result of r, 
 then, Click [模拟半径] import [ water, air, ske, Hysteresis part ] the gray value of those Number of thoes part
-like " [1, 2, 3, 1]", the Hysteresis part is air, the simulation is about Drying path,
-if " [1, 2, 3, 2]", the Hysteresis part is air, the simulation is about wetting path,
+like " [2, 1, 3, 1]", the Hysteresis part is air, the simulation is about Drying path,
+if " [2, 1, 3, 2]", the Hysteresis part is air, the simulation is about wetting path,
 then, Click [SWCC Hysteresis], the hysteresis of "ink-bottle" effect will be simulated.
 finally, "Drying path" or "Wetting path" folder which include tif results will be generated.
 if size of the "r" of the SWCC Simulate is 10, the "SWCC Hysteresis" need to be carry 10*2 = 20 timmes.
